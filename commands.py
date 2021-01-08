@@ -28,7 +28,7 @@ def bye(root):
     exit()
 
 
-def location():
+def location(root):
     say('What place do you want to find?')
     search = listen()
     url = 'https://google.nl/maps/place/' + search + '/&amp;'
